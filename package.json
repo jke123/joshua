@@ -1,0 +1,46 @@
+{
+  "name": "joshua-portfolio",
+  "version": "2.0.0",
+  "description": "Premium Full-Stack Portfolio 2026 - Josué ADAGBE",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json,md}\"",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.6.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "@supabase/auth-helpers-nextjs": "^0.7.0",
+    "framer-motion": "^11.0.0",
+    "tailwindcss": "^3.4.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.3.0",
+    "sonner": "^1.3.0",
+    "zustand": "^4.4.0",
+    "next-themes": "^0.2.1",
+    "react-hot-toast": "^2.4.1",
+    "zod": "^3.22.4",
+    "swr": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "15.0.0",
+    "postcss": "^8.4.31",
+    "prettier": "^3.1.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10"
+  }
+}
